@@ -23,7 +23,7 @@ A set of endpoints to facilitate user registration, login, and password reset wi
 
 ## Usage
 
-An authentication system is somewhat complex with a number of moving parts (server with backend and frontend endpoints, database, email). In large productions, multiple servers, proxies and other network and security measures may be additional factors. To get started with this modest implementation of an authentication system, it may be easier to copy the example below and and go from there. The explanations may provide helpful supplememntal material.
+An authentication system is somewhat complex with a number of moving parts (server with backend and frontend endpoints, database, email). In large productions, multiple servers, proxies and other network and security measures may be additional factors. To get started with this modest implementation of an authentication system, it may be easier to copy the example below and go from there. The explanations may provide helpful supplememntal material.
 
 ### Email Configuration
 
