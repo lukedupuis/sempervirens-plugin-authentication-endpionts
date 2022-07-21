@@ -1,0 +1,41 @@
+{
+  "name": "@sempervirens/plugin-authentication-endpoints",
+  "version": "0.0.1",
+  "description": "A set of endpoints to facilitate user registration, login, and password reset with Express and MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cd test && mocha *.test.js --timeout=15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukedupuis/sempervirens-plugin-authentication-endpionts.git"
+  },
+  "keywords": [
+    "Express",
+    "plugins",
+    "endpoints",
+    "authentication",
+    "MongoDB"
+  ],
+  "author": "Luke Dupuis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukedupuis/sempervirens-plugin-authentication-endpionts/issues"
+  },
+  "homepage": "https://github.com/lukedupuis/sempervirens-plugin-authentication-endpionts#readme",
+  "devDependencies": {
+    "@sempervirens/plugin-csp-middleware": "^0.0.3",
+    "@sempervirens/server": "^0.0.5",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.4.6",
+    "superagent": "^8.0.0"
+  },
+  "dependencies": {
+    "@sempervirens/authorizer": "^0.5.0",
+    "@sempervirens/dao": "^0.2.2",
+    "@sempervirens/emailer": "^0.2.1",
+    "@sempervirens/endpoint": "^0.8.2"
+  }
+}
