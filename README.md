@@ -23,7 +23,7 @@ A set of endpoints to facilitate user registration, login, and password reset wi
 
 ## Usage
 
-An authentication system is somewhat complex with a number of moving parts (server with backend and frontend endpoints, database, email). In large productions, multiple servers, proxies and other network and security measures may be additional factors. To get started with this modest implementation of an authentication system, it may be easier to copy the example below and go from there. The explanations may provide helpful supplememntal material.
+An authentication system is somewhat complex with a number of moving parts (server with backend and frontend endpoints, database, email). In large productions, multiple servers, proxies and other network and security measures may be additional factors. To get started with this modest implementation of an authentication system, it may be easier to copy the example below and go from there. The explanations may provide helpful supplemental material.
 
 ### Email Configuration
 
@@ -31,7 +31,7 @@ If the `emailConfig` is not passed into the site loader configuration, then no e
 
 The default `emailConfig` uses Nodemailer with Gmail. Nodemailer configurations may be passed in the `emailConfig` `options` property. See [@sempervirens/emailer](https://www.npmjs.com/package/@sempervirens/emailer) for more information.
 
-See the below email examples for the properties that are passed into the `emailConfig` `emails` array, and the properties that are passed into the email `template` functions. The default `resetLinkExpiresIn` is 10 minutes.
+See the email examples below for the properties that are passed into the `emailConfig` `emails` array, and the properties that are passed into the email `template` functions. The default `resetLinkExpiresIn` is 10 minutes.
 
 ### Making Requests
 
@@ -221,7 +221,7 @@ new Server({
       domain: 'site-1',
       data: {
         dbName: 'testdb',
-        baseUrl: 'http://localhost:8080/site-1',
+        baseUrl: 'http://localhost:8080/site-1', // Passed into resetPasswordEmail template
         emailConfig: {
           from: 'your test email address', // Easiest is a Gmail test account with an app password
           password: '',
