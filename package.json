@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukedupuis/sempervirens-plugin-authentication-endpionts.git"
+    "url": "git+https://github.com/lukedupuis/sempervirens-plugin-authentication-endpoints.git"
   },
   "keywords": [
     "Express",
@@ -21,9 +21,9 @@
   "author": "Luke Dupuis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukedupuis/sempervirens-plugin-authentication-endpionts/issues"
+    "url": "https://github.com/lukedupuis/sempervirens-plugin-authentication-endpoints/issues"
   },
-  "homepage": "https://github.com/lukedupuis/sempervirens-plugin-authentication-endpionts#readme",
+  "homepage": "https://github.com/lukedupuis/sempervirens-plugin-authentication-endpoints#readme",
   "devDependencies": {
     "@sempervirens/plugin-csp-middleware": "^0.0.3",
     "@sempervirens/server": "^0.0.5",
