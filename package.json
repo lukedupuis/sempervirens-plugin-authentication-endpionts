@@ -31,8 +31,8 @@
     "@sempervirens/endpoint": "^0.9.1"
   },
   "devDependencies": {
-    "@sempervirens/plugin-csp-middleware": "^0.0.5",
-    "@sempervirens/server": "^0.2.1",
+    "@sempervirens/plugin-csp-middleware": "^0.0.6",
+    "@sempervirens/server": "^0.3.0",
     "chai": "^4.3.6",
     "mocha": "^10.0.0",
     "mongoose": "^6.4.6",
