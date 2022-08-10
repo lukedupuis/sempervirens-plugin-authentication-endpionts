@@ -1,6 +1,6 @@
 {
   "name": "@sempervirens/plugin-authentication-endpoints",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A set of endpoints to facilitate user registration, login, and password reset with Express and MongoDB",
   "main": "index.js",
   "type": "module",
