@@ -25,14 +25,14 @@
   },
   "homepage": "https://github.com/lukedupuis/sempervirens-plugin-authentication-endpoints#readme",
   "dependencies": {
-    "@sempervirens/authorizer": "^0.5.0",
+    "@sempervirens/authorizer": "^0.6.0",
     "@sempervirens/dao": "^0.3.0",
     "@sempervirens/emailer": "^0.2.1",
-    "@sempervirens/endpoint": "^0.9.1"
+    "@sempervirens/endpoint": "^0.9.2"
   },
   "devDependencies": {
-    "@sempervirens/plugin-csp-middleware": "^0.0.6",
-    "@sempervirens/server": "^0.3.0",
+    "@sempervirens/plugin-csp-middleware": "^0.0.7",
+    "@sempervirens/server": "^0.3.1",
     "chai": "^4.3.6",
     "mocha": "^10.0.0",
     "mongoose": "^6.4.6",
